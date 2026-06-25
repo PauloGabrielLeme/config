@@ -1,0 +1,60 @@
+window {
+    margin: 0px;
+    border: 1px solid #565f89;
+    background-color: #1a1b26;
+}
+
+#input {
+    margin: 5px;
+    border: none;
+    color: #c0caf5;
+    background-color: #24283b;
+}
+
+#inner-box {
+    margin: 5px;
+    border: none;
+    background-color: #1a1b26;
+}
+
+#outer-box {
+    margin: 5px;
+    border: none;
+    background-color: #1a1b26;
+}
+
+#scroll {
+    margin: 0px;
+    border: none;
+}
+
+/* Ícone do aplicativo */
+#img {
+    margin: 6px 8px 6px 6px;
+    min-width: 32px;
+    min-height: 32px;
+}
+
+/* Texto do nome do aplicativo */
+#text {
+    margin: 6px 8px 6px 4px;
+    border: none;
+    color: #c0caf5;
+    font-size: 1.05em;
+}
+
+/* Item da lista (entrada) */
+#entry {
+    padding: 2px;
+}
+
+/* Item selecionado */
+#entry:selected {
+    background-color: #24283b;
+}
+
+/* Opcional: ícone também muda um pouco quando selecionado */
+#entry:selected #img {
+    /* Pode adicionar filtro se quiser realçar mais o ícone */
+    /* filter: brightness(1.1); */
+}
